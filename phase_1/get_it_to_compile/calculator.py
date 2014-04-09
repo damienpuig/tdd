@@ -7,5 +7,5 @@ class Calculator(object):
     def sum(self):
         pass
 
-    def divide_by(self, nb):
+    def divide_sum_by(self, nb):
         pass
