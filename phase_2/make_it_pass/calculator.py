@@ -15,7 +15,7 @@ class Calculator(object):
             raise EntryError('The given number is not of type number.')
 
         if nb == 0:
-            raise EntryError('The entry must not be zero.')
+            raise EntryError('zero? really?')
 
         s = self.sum()
 

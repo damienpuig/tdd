@@ -37,11 +37,11 @@ class TestCalculator(object):
 
         divide_nb = None
 
-        with pytest.raises(EntryError) as excinfo:
+        with pytest.raises(EntryError):
             self.calculator.divide_sum_by(divide_nb)
 
 
         divide_nb = 0
 
-        with pytest.raises(EntryError) as excinfo:
+        with pytest.raises(EntryError):
             self.calculator.divide_sum_by(divide_nb)
